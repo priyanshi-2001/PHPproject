@@ -76,6 +76,7 @@ th, td {
     <script>
         function checkDelete() {
             return confirm("This action cannot be reversed");
+            
         }
     </script>
 </body>
