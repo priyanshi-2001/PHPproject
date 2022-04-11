@@ -85,7 +85,7 @@ if (isset($_POST["id"]) && !empty($_POST["id"])) {
             $fname = $row["firstname"];
             $lname = $row["lastname"];
             $email = $row["email"];
-            $course = $row["coreskill"];
+            $coreskill = $row["coreskill"];
             $city = $row["city"];
         }
         // close connection
