@@ -14,6 +14,7 @@ if (isset($_GET["id"]) && !empty(trim($_GET["id"]))) {
         echo "<script>window.location.href='http://localhost/crud/';</script>";
         exit();
     }
+    
     // close connection
     mysqli_close($conn);
 } else {
